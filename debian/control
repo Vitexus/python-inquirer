@@ -19,9 +19,9 @@ Architecture: all
 Depends:
  ${misc:Depends},
  ${python3:Depends},
- python3-blessed (>= 1.19.0),
- python3-editor (>= 1.6.0),
- python3-readchar (>= 4.2.0),
+ python3-blessed,
+ python3-editor,
+ python3-readchar,
 Description: Collection of common interactive command line user interfaces
  Collection of common interactive command line user interfaces, based
  on Inquirer.js. Includes text inputs, confirm dialogs, list selections,
