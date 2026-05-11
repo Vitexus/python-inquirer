@@ -1,0 +1,30 @@
+Source: python-inquirer
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-poetry-core,
+Standards-Version: 4.7.0
+Homepage: https://github.com/magmax/python-inquirer
+Vcs-Git: https://github.com/Vitexus/python-inquirer.git
+Vcs-Browser: https://github.com/Vitexus/python-inquirer
+Rules-Requires-Root: no
+
+Package: python3-inquirer
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-blessed (>= 1.19.0),
+ python3-editor (>= 1.6.0),
+ python3-readchar (>= 4.2.0),
+Description: Collection of common interactive command line user interfaces
+ Collection of common interactive command line user interfaces, based
+ on Inquirer.js. Includes text inputs, confirm dialogs, list selections,
+ checkbox selections, password prompts, and more.
+ .
+ This package provides the Python 3 library.

@@ -1,0 +1,184 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: python-inquirer
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .editorconfig
+           .flake8
+           .github/CODEOWNERS
+           .github/dependabot.yml
+           .github/labels.yml
+           .github/release-drafter.yml
+           .github/workflows/constraints.txt
+           .github/workflows/documentation.yml
+           .github/workflows/labeler.yml
+           .github/workflows/python-constraints.txt
+           .github/workflows/release.yml
+           .github/workflows/tests.yml
+           .gitignore
+           .pre-commit-config.yaml
+           .readthedocs.yml
+           CODE_OF_CONDUCT.md
+           CONTRIBUTING.md
+           bandit.yml
+           codecov.yml
+           docs/codeofconduct.md
+           docs/conf.py
+           docs/contributing.md
+           docs/examples.md
+           docs/images/inquirer_checkbox.gif
+           docs/images/inquirer_checkbox.png
+           docs/images/inquirer_confirm.png
+           docs/images/inquirer_list.png
+           docs/images/inquirer_text.png
+           docs/images/inquirer_theme-compare.png
+           docs/images/inquirer_theme.gif
+           docs/index.md
+           docs/inquirer.md
+           docs/inquirer.render.console.md
+           docs/inquirer.render.md
+           docs/installation.md
+           docs/modules.md
+           docs/requirements.txt
+           docs/usage.md
+           examples/checkbox.py
+           examples/checkbox_carousel.py
+           examples/checkbox_hints.py
+           examples/checkbox_locked.py
+           examples/checkbox_long.py
+           examples/checkbox_other.py
+           examples/checkbox_tagged.py
+           examples/confirm.py
+           examples/editor_example.py
+           examples/ignore.py
+           examples/list.py
+           examples/list_carousel.py
+           examples/list_hints.py
+           examples/list_long.py
+           examples/list_other.py
+           examples/list_tagged.py
+           examples/located.py
+           examples/mixed.py
+           examples/password.py
+           examples/password_echo.py
+           examples/path.py
+           examples/pre_answers.py
+           examples/questions_from_json.py
+           examples/replacements.py
+           examples/shortcuts.py
+           examples/test_questions.json
+           examples/text.py
+           examples/text_autocomplete.py
+           examples/theme.py
+           noxfile.py
+           poetry.lock
+           pyproject.toml
+           src/inquirer/__init__.py
+           src/inquirer/errors.py
+           src/inquirer/events.py
+           src/inquirer/prompt.py
+           src/inquirer/questions.py
+           src/inquirer/render/__init__.py
+           src/inquirer/render/console/__init__.py
+           src/inquirer/render/console/_checkbox.py
+           src/inquirer/render/console/_confirm.py
+           src/inquirer/render/console/_editor.py
+           src/inquirer/render/console/_list.py
+           src/inquirer/render/console/_other.py
+           src/inquirer/render/console/_password.py
+           src/inquirer/render/console/_path.py
+           src/inquirer/render/console/_text.py
+           src/inquirer/render/console/base.py
+           src/inquirer/shortcuts.py
+           src/inquirer/themes.py
+           tests/__init__.py
+           tests/acceptance/__init__.py
+           tests/acceptance/test_checkbox.py
+           tests/acceptance/test_list.py
+           tests/acceptance/test_password.py
+           tests/acceptance/test_pre_answers.py
+           tests/acceptance/test_shortcuts.py
+           tests/acceptance/test_text.py
+           tests/integration/__init__.py
+           tests/integration/console_render/__init__.py
+           tests/integration/console_render/helper.py
+           tests/integration/console_render/test_basic.py
+           tests/integration/console_render/test_checkbox.py
+           tests/integration/console_render/test_confirm.py
+           tests/integration/console_render/test_editor.py
+           tests/integration/console_render/test_list.py
+           tests/integration/console_render/test_password.py
+           tests/integration/console_render/test_text.py
+           tests/unit/__init__.py
+           tests/unit/test_prompt.py
+           tests/unit/test_question.py
+           tests/unit/test_shortcuts.py
+           tests/unit/test_themes.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     docs/license.md
+Copyright: 2014 Miguel Ángel García \<<mailto:miguelangel.garcia@gmail.com>>
+License:   Expat
+ {{ MIT license }}
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ .
+ License taken from [MIT license].
+ .
+ [mit license]: https://opensource.org/licenses/MIT
+
+Files:     README.md
+Copyright: 2014-2023 Miguel Ángel García ([@magmax_en]), based on [Inquirer.js],  Simon Boudrias ([@vaxilart])
+License:   __UNKNOWN__
+ Distributed under the terms of the [MIT license][license].
+ .
+ <!-- github-only -->
+ .
+ [license]: https://github.com/magmax/python-inquirer/blob/main/LICENSE
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ The MIT License (MIT)
+ .
+ Copyright (c) 2014 Miguel Ángel García
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
